@@ -95,3 +95,46 @@ ul{
 .foto:nth-child(5){
   animation-delay: 20s;
 }
+.conteudo{
+  width: 500px;
+  height: 500px;
+}
+.conteudo h1{
+  background-color: #ffff;
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  margin-left:-336px;
+  margin-top:526px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+}
+.conteudo p{
+  background-color: #ffff;
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  margin-left:-336px;
+  margin-top:665px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  display: block;
+    /*margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;*/
+}
+.video{
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  margin-left:-320px;
+  margin-top:1250px;
+}
+.video1{
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  margin-left:100px;
+  margin-top:1250px;
+}
