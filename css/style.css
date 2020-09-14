@@ -128,11 +128,15 @@ ul{
 }
 
 .grid-templates-columns {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .item{
   margin: 5px;
 	background: tomato;
 	text-align: center;
   font-size: 1.5em;
+}
+.obj h1{
+  text-align: center;
+  
 }
