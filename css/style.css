@@ -114,6 +114,25 @@ ul{
   display: table;
   clear: both;
 }
+.cor1{
+  background-color: black;
+  width: 100%;
+  height: 500px;
+}
+.galeria h1{
+  color:#ffff;
+  text-align: center;
+}
+.grid {
+	display: grid;
+}
 
-
-
+.grid-templates-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.item{
+  margin: 5px;
+	background: tomato;
+	text-align: center;
+  font-size: 1.5em;
+}
