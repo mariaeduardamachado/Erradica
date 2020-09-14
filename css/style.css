@@ -41,7 +41,7 @@ ul{
   left: 0%;
 }
 .cor h1{
-  background-color: #ffff;
+  color: white;
   left: 50%;
   top: 10%;
   position: absolute;
@@ -50,7 +50,7 @@ ul{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cor h2{
-  background-color: #ffff;
+  color: white;
   left: 50%;
   top: 10%;
   position: absolute;
@@ -95,3 +95,25 @@ ul{
 .foto:nth-child(5){
   animation-delay: 20s;
 }
+.conteudo {
+  background-color: #ffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  width: 50%;
+  height: 80%;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
