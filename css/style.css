@@ -99,20 +99,30 @@ ul{
   background-color: #ffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
-  width: 50%;
+  width: 40%;
   height: 80%;
   padding: 10px;
 }
 .column {
   float: left;
-  width: 50%;
+  width: 51%;
+  margin: 617px;
+  margin-top: -1062px;
 }
+.column1 {
+  float: left;
+  width: 51%;
+  margin: 617px;
+  margin-top: -882px;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
+  overflow: auto;
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 
 
