@@ -154,7 +154,7 @@ ul{
   color:#ffff;
   text-align: center;
 }
-.grid {
+/*.grid {
 	display: grid;
 }
 
@@ -182,4 +182,32 @@ ul{
 .cont{
   float: left;
   width: 50%;
+}*/
+.flip{
+  width: 480px;
+  height: 270;
+  float: left;
+   perspective: 1000  px;
 }
+.flip .frente{
+  position: absolute;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  transition: all .5s linear;
+}
+.flip .fundo{
+  position: absolute;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all .5s linear;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.flip:hover .frente{
+ transform: rotateY(-180deg);
+ cursor: pointer;  
+}
+.flip:hover .fundo{
+  transform: rotateY(0deg);
+  cursor: pointer;  
+ }
