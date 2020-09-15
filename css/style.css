@@ -140,3 +140,16 @@ ul{
   text-align: center;
   
 }
+.tb img{
+  max-width: 36%;
+  margin: 15px;
+}
+
+.tb:hover{
+  background-color: lightblue;
+}
+.item p{
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif ;
+}
