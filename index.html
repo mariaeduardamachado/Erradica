@@ -1,52 +1,396 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" >
-  <title>Document</title>
-  <script>
-		function mudarImg(a){
-			img=document.getElementById('imagens');
-			img.className='pos'+a;
-		}
-		imagem=1;
-		setInterval(
-		function(){
-			mudarImg(imagem);
-			imagem++;
-			if(imagem>4){
-				imagem=1;
-			}
-		},2000)
-	</script>
-</head>
-<body>
-  <div class="menu">
-    <ul>
-      <li><a href="" >Home</a></li>
-      <li><a href="">News</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">About</a></li>
-    </ul>
-  </div>
-  <div class="cor">
-  <div id="logo">
-    <div id="imagens" class="pos1">
-      <script>
-        for(i=1;i<=6;i++){
-        document.write('<div id=\"foto'+i+'\">');
-        document.write('<a href=\"#\" onclick=\"mostrarFoto('+i+')\">');
-        document.write('<img src=\"img/img ('+i+').jpg\"/>');
-        document.write('</a>');
-        document.write('</div>');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
+    <title>Document</title>
+    <script>
+      function mudarImg(a){
+        img=document.getElementById('imagens');
+        img.className='pos'+a;
+      }
+      imagem=1;
+      setInterval(
+      function(){
+        mudarImg(imagem);
+        imagem++;
+        if(imagem>4){
+          imagem=1;
         }
-      </script>
+      },2000)
+    </script>
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <li><a href="" >Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+      </ul>
     </div>
-      <h1 > Erradicação da Pobreza </br>Onde tudo seja para todos </h1 >
-      <h2 > Não deixe que a pobreza se transforme
-      em paisagem. </h2 >
+    <div class="cor">
+      <div id="logo">
+        <div id="imagens" class="pos1">
+          <script>
+            for(i=1;i<=6;i++){
+            document.write('<div id=\"foto'+i+'\">');
+            document.write('<a href=\"#\" onclick=\"mostrarFoto('+i+')\">');
+            document.write('<img src=\"img/img ('+i+').jpg\"/>');
+            document.write('</a>');
+            document.write('</div>');
+            }
+          </script>
+        </div>
+          <h1 > Erradicação da Pobreza </br>Onde tudo seja para todos </h1 >
+          <h2 > Não deixe que a pobreza se transforme
+          em paisagem. </h2 >
+        </div>
+  <div class="conteudo">
+      <h1>PNUD: Erradicação da pobreza garante </br>
+      desenvolvimento e inclusão social no Brasil
+      </h1>
+      <p>Em entrevista exclusiva ao PNUD, especialistas apontam
+        caminhos para o alcance dos Objetivos</br> de Desenvolvimento 
+        Sustentável no Brasil. Proteção social, das pessoas e do meio
+        ambiente são</br> condições vitais para esta conquista.
+        Reduzir pelo menos à metade, até 2030, a 
+        proporção de </br>homens, mulheres e crianças que vivem
+        na pobreza extrema, em todas as suas dimensões.</br> 
+        Essa é uma das metas do Objetivo de Desenvolvimento
+        Sustentável número 1: “Erradicação </br>
+        da Pobreza”. De acordo com as realidades nacionais, cada país
+        deverá assumir o compromisso</br> de cumprir a meta e 
+        colaborar com o desenvolvimento local. No Brasil, 
+        o tema faz parte da agenda</br> de trabalho de diversos 
+        segmentos: governo, setor privado, academia e sociedade 
+        civil organizada.</br></br>
+        Erradicar a pobreza em todas as suas formas 
+        segue sendo um dos principais desafios que enfrenta
+        a </br>humanidade. Enquanto o número de pessoas vivendo em 
+        extrema pobreza caiu mais da metade em </br>1990 e 2015 – de
+        1.9 bilhão para 836 milhões –, muitos ainda sofrem para
+        satisfazer necessidades básicas.</br>
+        Em nível mundial, mais de 800 milhões de pessoas
+        ainda vivem com menos de U$ 1,25 por dia, muitos</br> 
+        carecem de acesso a alimentos, água potável e 
+        saneamento adequados. O crescimento econômico </br>
+        acelerado de países como China e Índia tiraram milhões
+        de pessoas da pobreza, mas o progresso tem</br> sido desigual.
+        Mulheres estão mais sujeitas a viverem na pobreza do que os
+        homens, devido a falta de</br> acesso a trabalhos remunerados, 
+        educação e prosperidade.</br></br>
+        O progresso também foi limitado em outras 
+        regiões, como o Sul da Ásia e a África subsaariana, 
+        que são</br> responsáveis por 80 por cento das pessoas que
+        vivem em pobreza extrema. Novas ameças que são 
+        resultados</br> da mudança do clima, conflitos e insegurança
+        alimentar significam que mais trabalho é necessário para
+        tirar as</br> pessoas da pobreza.
+        Os ODS são um comprometimento ousado para 
+        finalizarmos o que  começamos e acabar</br> com a 
+        pobreza em todas as suas formas e dimensões até
+        2030. Isso envolve focar nos mais vulneráveis, 
+        aumentar</br> o acesso básico a serviços e apoiar
+        comunidades afetadas por conflitos e desastres
+        Os ODS são um comprometimento</br> ousado para 
+        finalizarmos o que  começamos e acabar com a 
+        pobreza em todas as suas formas e dimensões até
+        2030. </br>Isso envolve focar nos mais vulneráveis, 
+        aumentar o acesso básico a serviços e apoiar
+        comunidades afetadas </br>por conflitos e desastres
+        relacionados ao clima.
+      </p>
+      <!--div class="row-video">
+        <div class="column">
+          <iframe width="560" height="310" src="https://www.youtube.com/embed/oS4LkYf-yvE" frameborder="0"></iframe>
+        </div>
+        <div class="column">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/YdklX32lTh8" frameborder="0"></iframe>
+        </div>
+      </div-->
     </div>
+    <div class="cor1">
+      <div class="galeria">
+         <h1>Galeria</h1>
+         <section class="grid grid-templates-columns">
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+           <div class="item">aleatório</div>
+         </section>
+      </div>
+    </div>
+    <div class="conteudo">
+      <div class="obj">
+        <h1>Objetivos</h1>
+      </div>
+      <section class="grid grid-templates-columns">
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+        <div class="item">aleatório</div>
+      </section>
+    </div>
+    <div class="cor1">
+      <a name="dens"></a>
+      <div class="desen">
+        <h1>Desenvolvimentos</h1>
+      </div>
+      <div class="desenvolvimento">
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods2/">
+          <img src="img/out1.png">
+        </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods2/">
+          <img src="img/out1.png">
+        </a>
+        </div>
+      </div>
+
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods3/">
+          <img src="img/out2.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods3/">
+          <img src="img/out2.png">
+          </a>
+        </div>
+      </div>
+
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods4/">
+          <img src="img/out3.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods4/">
+          <img src="img/out3.png">
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods5/">
+          <img src="img/out4.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods5/">
+          <img src="img/out4.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods6/">
+          <img src="img/out5.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods6/">
+          <img src="img/out5.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods7/">
+          <img src="img/out7.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods7/">
+          <img src="img/out7.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods8/">
+          <img src="img/out8.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods8/">
+          <img src="img/out8.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods9/">
+          <img src="img/out9.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods9/">
+          <img src="img/out9.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods10/">
+          <img src="img/out110.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods10/">
+          <img src="img/out110.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods11/">
+          <img src="img/out11.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods11/">
+          <img src="img/out11.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods12/">
+          <img src="img/out12.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods12/">
+          <img src="img/out12.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods13/">
+          <img src="img/out13.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods13/">
+          <img src="img/out13.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods14/">
+          <img src="img/out14.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods14/">
+          <img src="img/out14.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods15/">
+          <img src="img/out15.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods15/">
+          <img src="img/out15.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods16/">
+          <img src="img/out16.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods16/">
+          <img src="img/out16.png" >
+          </a>
+        </div>
+      </div>
+      <div class="flip">
+        <div class="fundo">
+          <a href="https://nacoesunidas.org/pos2015/ods17/">
+          <img src="img/out17.png">
+          </a>
+        </div>
+        <div class="frente">
+          <a href="https://nacoesunidas.org/pos2015/ods17/">
+          <img src="img/out17.png" >
+          </a>
+        </div>
+      </div>
+      </div>
   </div>
-</body>
+  <a name="mim"></a>
+    <div class="sobre">
+      <div class="cont">
+        <h1>Sobre mim</h1>
+        <section class="grid grid-templates-columns">
+          <div class="item"> 
+            <h1>Um pouco sobre essa pessoinha</h1>
+       
+               <h4>Maria Eduarda Machado Alves</h4>
+               <p>
+                   Olá sou a Maduh tenho 17 anos e sou formada em um curso 
+                   técnico de TI pela UEG. Dês de quando eu comecei o curso 
+                   programação foi meu amor a primeira vista e nós demos mais 
+                   do que bem. Ao longo do curso fui apredendo muitas coisas até
+                   no dia que finalmente chegamos ao nosso primeiro estágio. Eu
+                   escolhi fazer na prefeito, um projeto todo voltado totalmente
+                   para o desenvolvimento de impresas tanto na parte hardware e 
+                   software, onde no final eu deveria fazer um grande orçamento
+                   dizendo como aquela empresssa poderia se desenvolver.
+               </p>
+               <h1>Essa é uma parte da minha história, como está indo 
+                   a sua?
+               </h1>
+          </div>
+          <div class="item">
+            <img src="img/mim.jpg" alt="">
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="rodape">
+      <div class="cor2">
+      <section class="grid grid-templates-columns">
+        <div class="item">
+          <h3>Meu Primeiro Site</h3>
+          <p>Projeto desenvolvido durante o curso Meu primeiro site, promovido pela Junior Achievement Brasil e
+            Microsoft.</p>
+            <img src="img/foto1.png">
+        </div>
+        <div class="item">
+          <h3>Créditos</h3>
+          <p>Ícones de Flat Icon, imagens senac, educa + brasil,
+             google imagens... </p>
+             <img src="img/foto2.png">
+        </div>
+      </section> 
+     </div>
+    </div>
+  </body>
 </html>
