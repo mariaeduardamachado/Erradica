@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" >
     <title>Document</title>
+    <script>
+      function mudarImg(a){
+        img=document.getElementById('imagens');
+        img.className='pos'+a;
+      }
+      imagem=1;
+      setInterval(
+      function(){
+        mudarImg(imagem);
+        imagem++;
+        if(imagem>4){
+          imagem=1;
+        }
+      },2000)
+    </script>
   </head>
   <body>
     <div class="menu">
@@ -16,18 +31,24 @@
       </ul>
     </div>
     <div class="cor">
-      <section class="galeria">
-        <img src="img/img (1).jpg" class="foto" width="400px"/>
-        <img src="img/img (2).jpg" class="foto" width="400px"/>
-        <img src="img/img (3).jpg" class="foto"width="400px"/>
-        <img src="img/img (4).jpg" class="foto"width="400px"/>
-        <img src="img/img (5).jpg" class="foto"width="400px"/>]
-      </section>
-      <h1>Onde tudo seja para todos</h1>
-      <h2>Não deixe que a pobreza se transforme 
-        em paisagem.</h2>
+      <div id="logo">
+        <div id="imagens" class="pos1">
+          <script>
+            for(i=1;i<=6;i++){
+            document.write('<div id=\"foto'+i+'\">');
+            document.write('<a href=\"#\" onclick=\"mostrarFoto('+i+')\">');
+            document.write('<img src=\"img/img ('+i+').jpg\"/>');
+            document.write('</a>');
+            document.write('</div>');
+            }
+          </script>
+        </div>
+          <h1 > Erradicação da Pobreza </br>Onde tudo seja para todos </h1 >
+          <h2 > Não deixe que a pobreza se transforme
+          em paisagem. </h2 >
+        </div>
     </div>
-  <div class="conteudo">
+      <div class="conteudo">
       <h1>PNUD: Erradicação da pobreza garante </br>
       desenvolvimento e inclusão social no Brasil
       </h1>
